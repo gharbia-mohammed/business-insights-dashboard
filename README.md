@@ -1,1 +1,116 @@
 # business-insights-dashboard
+
+
+## Table of contents
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Data Cleaning / Preparation](#data-cleaning--preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Modeling & Prediction](#modeling--prediction)
+- [Results / Findings](#results--findings)
+- [Recommendations](#recommendations)
+
+
+
+
+### Project Overview
+
+
+This project analyzes an e-commerce dataset to generate actionable business insights. The analysis covers overall sales trends, sales and profit by category, top-selling products, and high-profit but low-sales items. It also examines category-level sales contributions and key profitability drivers. Together, these insights provide data-driven recommendations to support strategic decision-making and enhance understanding of the company’s performance.
+
+
+
+
+
+<br><br>
+
+<img width="1000" height="700" alt="conversion rate vs ctr" src="https://github.com/user-attachments/assets/03bd2b8e-a3df-4a19-ac9f-bcb7cac23402" />
+
+<br><br>
+
+
+
+
+### Data sources :
+
+the primary dataset used for this analysis is "Ecommerce_data.csv" file , containing detailed information about each sale made by the company .
+
+
+### Tools :
+
+- python - Data cleaning , exploration , Exporting processed data to Excel and linear regression modeling.
+- power bi - Building interactive dashboards and Visualizing sales performance and digital marketing KPIs .
+
+
+### Data cleaning / preperation :
+
+in the initial data preperation phase we perform the following tasks :
+1. Data loading and inspection.
+2. Handling missing values.
+3. Data cleaning and formatting.
+
+
+### Exploratoty Data analysis :
+EDA involved exploring the sales data to answer key questions such as:
+
+- what is the total revenue and Month over Month revenue Growth %?
+- What are the top-selling categories?
+- What are the peak sales periods?
+- what are the monthy Ads spend?
+- What is the cost per action (CPA)?
+
+### Modeling & Prediction :
+
+We built and evaluated a **linear regression model**:
+- **Features (X):** Units Sold, Ad Spend, Conversion Rate  
+- **Target (y):** Revenue  
+- **Train/Test Split:** Last month used as test data  
+- **Metrics Used:**
+  - R² Score (explained variance)
+  - MAE (Mean Absolute Error)
+  - RMSE (Root Mean Squared Error)
+
+Then, we performed **scenario analysis**:
+- Increased ad spend by **30%**
+- Predicted new monthly revenues
+- Calculated expected % growth
+- Visualized results in a **line chart** comparing 2024 actual revenue vs. 2025 predicted revenue (with +30% ad spend)
+
+
+<br><br>
+
+
+<img width="1000" height="500" alt="prediction 2025 after increasing ads spend edited final" src="https://github.com/user-attachments/assets/f6547811-491b-4cb2-b041-d8b737f764bd" />
+
+
+<br><br>
+
+
+
+### Results / findings :
+
+ 1.Sales peaked in November 2024, driven by a 22% increase in ad spend compared to December 2023, which recorded the lowest sales.
+
+ 2. Electronics emerged as the top-performing category in terms of both sales and revenue.
+
+ 3. The cost per action (CPA) was optimal, indicating a highly effective campaign.
+
+
+### Recommendations:
+
+1. increase Advertising Budget:
+   Allocate a higher budget for ads, as this is likely to drive higher sales and improve revenue growth.
+
+2. Expand and Promote Electronics Category:
+   Prioritize marketing efforts for the electronics category, as it is the top-performing segment and has strong potential for further growth.
+
+3. Maintain Consistent Ad Spending
+   February 2023 sales dropped by about 10% due to reduced ad spend in January.
+
+4. introduce special offers for existing customers to strengthen loyalty.
+   This strategy can reduce future advertising costs while increasing repeat purchases and overall sales.
+
+
+
+
