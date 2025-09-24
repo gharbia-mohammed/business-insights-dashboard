@@ -54,28 +54,15 @@ in the initial data preperation phase we perform the following tasks :
 ### Exploratoty Data analysis :
 EDA involved exploring the sales data to answer key questions such as:
 
+- What are the overall sales trends over time?
+- What are the overall profit trends over time?
 - what is the total revenue and Month over Month revenue Growth %?
-- What are the top-selling categories?
-- What are the peak sales periods?
-- what are the monthy Ads spend?
-- What is the cost per action (CPA)?
+- Which products are the top sellers?
+- Which products generate high profit despite low sales volume?
+- What is the sales contribution of each category to total revenue?
+- What are the key factors driving profitability across categories and products?
 
-### Modeling & Prediction :
 
-We built and evaluated a **linear regression model**:
-- **Features (X):** Units Sold, Ad Spend, Conversion Rate  
-- **Target (y):** Revenue  
-- **Train/Test Split:** Last month used as test data  
-- **Metrics Used:**
-  - R² Score (explained variance)
-  - MAE (Mean Absolute Error)
-  - RMSE (Root Mean Squared Error)
-
-Then, we performed **scenario analysis**:
-- Increased ad spend by **30%**
-- Predicted new monthly revenues
-- Calculated expected % growth
-- Visualized results in a **line chart** comparing 2024 actual revenue vs. 2025 predicted revenue (with +30% ad spend)
 
 
 <br><br>
@@ -87,30 +74,22 @@ Then, we performed **scenario analysis**:
 <br><br>
 
 
-
 ### Results / findings :
 
- 1.Sales peaked in November 2024, driven by a 22% increase in ad spend compared to December 2023, which recorded the lowest sales.
-
- 2. Electronics emerged as the top-performing category in terms of both sales and revenue.
-
- 3. The cost per action (CPA) was optimal, indicating a highly effective campaign.
-
+ 1. With a contribution of 60%, Office Supplies ranked as the top sales category.
+ 2. Office Supplies recorded the highest profit among all categories, totaling approximately 1,577,300 $.
+ 3. Staples recorded the highest product sales, reaching approximately $113,000.
+ 4. While top-selling products recorded a profit margin of about 11% several low-sales products delivered
+    substantially higher margins reaching approximately 26%.
 
 ### Recommendations:
 
-1. increase Advertising Budget:
-   Allocate a higher budget for ads, as this is likely to drive higher sales and improve revenue growth.
+To optimize profitability and ensure sustainable growth, the company should adopt a balanced product strategy:
 
-2. Expand and Promote Electronics Category:
-   Prioritize marketing efforts for the electronics category, as it is the top-performing segment and has strong potential for further growth.
+1-Maintain Best-Sellers (High-Volume Products): Continue to promote and stock top-selling items to secure consistent revenue and cash flow.
 
-3. Maintain Consistent Ad Spending
-   February 2023 sales dropped by about 10% due to reduced ad spend in January.
-
-4. introduce special offers for existing customers to strengthen loyalty.
-   This strategy can reduce future advertising costs while increasing repeat purchases and overall sales.
-
+2-Promote high-profit niche products: Focus on products with lower sales but higher profit margins to increase overall profitability.
+ 
 
 
 
