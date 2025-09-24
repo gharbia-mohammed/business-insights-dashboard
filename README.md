@@ -17,15 +17,14 @@
 ### Project Overview
 
 
+
 This project analyzes an e-commerce dataset to generate actionable business insights. The analysis covers overall sales trends, sales and profit by category, top-selling products, and high-profit but low-sales items. It also examines category-level sales contributions and key profitability drivers. Together, these insights provide data-driven recommendations to support strategic decision-making and enhance understanding of the company’s performance.
-
-
 
 
 
 <br><br>
 
-<img width="1000" height="700" alt="conversion rate vs ctr" src="https://github.com/user-attachments/assets/03bd2b8e-a3df-4a19-ac9f-bcb7cac23402" />
+<img width="1315" height="511" alt="Capture" src="https://github.com/user-attachments/assets/52363be9-8a85-486c-a444-83953a55a5a8" />
 
 <br><br>
 
@@ -64,16 +63,6 @@ EDA involved exploring the sales data to answer key questions such as:
 
 
 
-
-<br><br>
-
-
-<img width="1000" height="500" alt="prediction 2025 after increasing ads spend edited final" src="https://github.com/user-attachments/assets/f6547811-491b-4cb2-b041-d8b737f764bd" />
-
-
-<br><br>
-
-
 ### Results / findings :
 
  1. With a contribution of 60%, Office Supplies ranked as the top sales category.
@@ -86,9 +75,9 @@ EDA involved exploring the sales data to answer key questions such as:
 
 To optimize profitability and ensure sustainable growth, the company should adopt a balanced product strategy:
 
-1-Maintain Best-Sellers (High-Volume Products): Continue to promote and stock top-selling items to secure consistent revenue and cash flow.
+1.Maintain Best-Sellers (High-Volume Products): Continue to promote and stock top-selling items to secure consistent revenue and cash flow.
 
-2-Promote high-profit niche products: Focus on products with lower sales but higher profit margins to increase overall profitability.
+2.Promote high-profit niche products: Focus on products with lower sales but higher profit margins to increase overall profitability.
  
 
 
